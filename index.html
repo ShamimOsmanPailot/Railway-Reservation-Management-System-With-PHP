@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Railway Management System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="switch.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/
+css/all.css"
+      integrity="sha384-
+AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <img
+          src="logo.png"
+          alt=""
+          class="d-inline-block align-top"
+          width="60"
+          height="60"
+        />
+
+        <h2>Railway Reservation Management System</h2>
+        <titl></title>
+        <label class="switch">
+          <input type="checkbox" checked />
+          <span class="slider round"></span>
+        </label>
+
+        <div class="flex-container">
+        <button class="button_corner_style"><li><a href="#home">Home</a></li></button> 
+        <button class="button_corner_style"><li><a href="./server/index.php">Login</a></li></button> 
+        <button class="button_corner_style"><li><a href="./server/registration/RegistrationForm.php">Register</a></li></button> 
+        <button class="button_corner_style"><li><a href="#Verify Ticket">Verify Ticket</a></li></button> 
+        <button class="button_corner_style"><li><a href="#Contact Us">Contact Us</a></li></button> 
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+      <div class="row">
+        <marquee behavior="scroll" direction="left" style="position: absolute;">ghfhf</marquee>
+      </div>
+      <!-- marquee part-->
+      
+
+      <!-- Reservation part-->
+      <div class="box_style">
+        <div class="header_title">
+          <div class="center">
+            Welcome to Bangladesh Railway E-Ticketing Service
+          </div>
+        </div>
+        <div class="purchase_box">
+          <h2 style="text-align: center">RESERVATION FORM</h2>
+          <form>
+            <div id="left_side">
+              <div class="gap">
+                <label for="name">Route</label><br />
+            <select name="From">
+              <option value="" disabled selected>From </option>
+              <option value="ABDULPUR">ABDULPUR</option>
+              <option value="ACCALPUR">ACCALPUR</option>
+              <option value="AHASANGANG">AHASANGANG</option>
+              <option value="AKHAURA">AKHAURA</option>
+              <option value="ALAMDANGA">ALAMDANGA</option>
+              <option value="ASHUGANJ">ASHUGANJ</option>
+              <option value="AZAMPUR">AZAMPUR</option>
+              <option value="B SIRAJUL ISLAM">B SIRAJUL ISLAM</option>
+              <option value="BAJITPUR">BAJITPUR</option>
+              <option value="BANANI">BANANI</option>
+              <option value="BBSETU_E">BBSETU_E</option>
+              <option value="BENAPOLE">BENAPOLE</option>
+              <option value="BHAIRAB_BAZAR">BHAIRAB_BAZAR</option>
+              <option value="BHANUGACH">BHANUGACH</option>
+              <option value="BIMAN_BANDAR">BIMAN_BANDAR</option>
+              <option value="BIRAMPUR">BIRAMPUR</option>
+              <option value="BONAR_PARA">BONAR_PARA</option>
+              <option value="BORAL_BRIDGE">BORAL_BRIDGE</option>
+              <option value="BORASHI">BORASHI</option>
+              <option value="BRAHMAN_BARIA">BRAHMAN_BARIA</option>
+              <option value="CHANDPUR">CHANDPUR</option>
+              <option value="CHAPAINABABGANJ">CHAPAINABABGANJ</option>
+              <option value="CHAPTA">CHAPTA</option>
+              <option value="CHATMOHAR">CHATMOHAR</option>
+              <option value="CHILAHATI">CHILAHATI</option>
+              <option value="CHITTAGONG">CHITTAGONG</option>
+              <option value="CHUADANGA">CHUADANGA</option>
+              <option value="CUMILLA">CUMILLA</option>
+              <option value="DARSANA_HALT">DARSANA_HALT</option>
+              <option value="DA_CANTONMENT">DA_CANTONMENT</option>
+              <option value="DEWANGANJ_BAZAR">DEWANGANJ_BAZAR</option>
+              <option value="DHAKA">DHAKA</option>
+              <option value="DINAJPUR">DINAJPUR</option>
+              <option value="FENI">FENI</option>
+              <option value="GAFARGAON">GAFARGAON</option>
+              <option value="GAIBANDHA">GAIBANDHA</option>
+              <option value="GOBRA">GOBRA</option>
+              <option value="GOPALGANJ">GOPALGANJ</option>
+              <option value="GOURIPUR_MYN">GOURIPUR_MYN</option>
+              <option value="GUNABOTI">GUNABOTI</option>
+              <option value="ISHURDI">ISHURDI</option>
+              <option value="ISLAMPUR_BAZAR">ISLAMPUR_BAZAR</option>
+              <option value="JAMALPUR_TOWN">JAMALPUR_TOWN</option>
+              <option value="JAYDEBPUR">JAYDEBPUR</option>
+              <option value="JESSORE">JESSORE</option>
+              <option value="JOYPURHAT">JOYPURHAT</option>
+              <option value="KASHIANI">KASHIANI</option>
+              <option value="KHULNA">KHULNA</option>
+              <option value="KISHOREGANJ">KISHOREGANJ</option>
+              <option value="KULAURA">KULAURA</option>
+              <option value="KULIARCHAR">KULIARCHAR</option>
+              <option value="KURIGRAM">KURIGRAM</option>
+              <option value="LAKSAM">LAKSAM</option>
+              <option value="LALMONIR_HAT">LALMONIR_HAT</option>
+              <option value="MAIZGAON">MAIZGAON</option>
+              <option value="MELANDAH_BAZAR">MELANDAH_BAZAR</option>
+              <option value="MOHANGANJ">MOHANGANJ</option>
+              <option value="MYMENSINGH">MYMENSINGH</option>
+              <option value="NARSHINGDI">NARSHINGDI</option>
+              <option value="NATORE">NATORE</option>
+              <option value="NAYAPARA">NAYAPARA</option>
+              <option value="NEELFAMARI">NEELFAMARI</option>
+              <option value="NETROKONA">NETROKONA</option>
+              <option value="BRAHMANBARIA">BRAHMANBARIA</option>
+              <option value="NOAKHALI">NOAKHALI</option>
+              <option value="PARBATIPUR">PARBATIPUR</option>
+              <option value="PHULBARI">PHULBARI</option>
+              <option value="PORADAHA">PORADAHA</option>
+              <option value="QOSBA">QOSBA</option>
+              <option value="RAJSHAHI">RAJSHAHI</option>
+              <option value="RAJSHAHI">RAJSHAHI COURT</option>
+              <option value="RANGPUR">RANGPUR</option>
+              <option value="SAIDPUR">SAIDPUR</option>
+              <option value="SANTAHER">SANTAHER</option>
+              <option value="SARARCHAR">SARARCHAR</option>
+              <option value="SARISHA_BARI">SARISHA_BARI</option>
+              <option value="SH M MONSUR ALI">SH M MONSUR ALI</option>
+              <option value="SHAISTAGONJ">SHAISTAGONJ</option>
+              <option value="SHAMSHERNAGAR">SHAMSHERNAGAR</option>
+              <option value="SRIMANGAL">SRIMANGAL</option>
+              <option value="SYLHET">SYLHET</option>
+              <option value="TANGAIL">TANGAIL</option>
+              <option value="THAKURGAON_ROAD">THAKURGAON_ROAD</option>
+              <option value="ULLAPARA">ULLAPARA</option>
+            </select>
+            <select name="To">
+              <option value="" disabled selected>To </option>
+              <option value="ABDULPUR">ABDULPUR</option>
+              <option value="ACCALPUR">ACCALPUR</option>
+              <option value="AHASANGANG">AHASANGANG</option>
+              <option value="AKHAURA">AKHAURA</option>
+              <option value="ALAMDANGA">ALAMDANGA</option>
+              <option value="ASHUGANJ">ASHUGANJ</option>
+              <option value="AZAMPUR">AZAMPUR</option>
+              <option value="B SIRAJUL ISLAM">B SIRAJUL ISLAM</option>
+              <option value="BAJITPUR">BAJITPUR</option>
+              <option value="BANANI">BANANI</option>
+              <option value="BBSETU_E">BBSETU_E</option>
+              <option value="BENAPOLE">BENAPOLE</option>
+              <option value="BHAIRAB_BAZAR">BHAIRAB_BAZAR</option>
+              <option value="BHANUGACH">BHANUGACH</option>
+              <option value="BIMAN_BANDAR">BIMAN_BANDAR</option>
+              <option value="BIRAMPUR">BIRAMPUR</option>
+              <option value="BONAR_PARA">BONAR_PARA</option>
+              <option value="BORAL_BRIDGE">BORAL_BRIDGE</option>
+              <option value="BORASHI">BORASHI</option>
+              <option value="BRAHMAN_BARIA">BRAHMAN_BARIA</option>
+              <option value="CHANDPUR">CHANDPUR</option>
+              <option value="CHAPAINABABGANJ">CHAPAINABABGANJ</option>
+              <option value="CHAPTA">CHAPTA</option>
+              <option value="CHATMOHAR">CHATMOHAR</option>
+              <option value="CHILAHATI">CHILAHATI</option>
+              <option value="CHITTAGONG">CHITTAGONG</option>
+              <option value="CHUADANGA">CHUADANGA</option>
+              <option value="CUMILLA">CUMILLA</option>
+              <option value="DARSANA_HALT">DARSANA_HALT</option>
+              <option value="DA_CANTONMENT">DA_CANTONMENT</option>
+              <option value="DEWANGANJ_BAZAR">DEWANGANJ_BAZAR</option>
+              <option value="DHAKA">DHAKA</option>
+              <option value="DINAJPUR">DINAJPUR</option>
+              <option value="FENI">FENI</option>
+              <option value="GAFARGAON">GAFARGAON</option>
+              <option value="GAIBANDHA">GAIBANDHA</option>
+              <option value="GOBRA">GOBRA</option>
+              <option value="GOPALGANJ">GOPALGANJ</option>
+              <option value="GOURIPUR_MYN">GOURIPUR_MYN</option>
+              <option value="GUNABOTI">GUNABOTI</option>
+              <option value="ISHURDI">ISHURDI</option>
+              <option value="ISLAMPUR_BAZAR">ISLAMPUR_BAZAR</option>
+              <option value="JAMALPUR_TOWN">JAMALPUR_TOWN</option>
+              <option value="JAYDEBPUR">JAYDEBPUR</option>
+              <option value="JESSORE">JESSORE</option>
+              <option value="JOYPURHAT">JOYPURHAT</option>
+              <option value="KASHIANI">KASHIANI</option>
+              <option value="KHULNA">KHULNA</option>
+              <option value="KISHOREGANJ">KISHOREGANJ</option>
+              <option value="KULAURA">KULAURA</option>
+              <option value="KULIARCHAR">KULIARCHAR</option>
+              <option value="KURIGRAM">KURIGRAM</option>
+              <option value="LAKSAM">LAKSAM</option>
+              <option value="LALMONIR_HAT">LALMONIR_HAT</option>
+              <option value="MAIZGAON">MAIZGAON</option>
+              <option value="MELANDAH_BAZAR">MELANDAH_BAZAR</option>
+              <option value="MOHANGANJ">MOHANGANJ</option>
+              <option value="MYMENSINGH">MYMENSINGH</option>
+              <option value="NARSHINGDI">NARSHINGDI</option>
+              <option value="NATORE">NATORE</option>
+              <option value="NAYAPARA">NAYAPARA</option>
+              <option value="NEELFAMARI">NEELFAMARI</option>
+              <option value="NETROKONA">NETROKONA</option>
+              <option value="BRAHMANBARIA">BRAHMANBARIA</option>
+              <option value="NOAKHALI">NOAKHALI</option>
+              <option value="PARBATIPUR">PARBATIPUR</option>
+              <option value="PHULBARI">PHULBARI</option>
+              <option value="PORADAHA">PORADAHA</option>
+              <option value="QOSBA">QOSBA</option>
+              <option value="RAJSHAHI">RAJSHAHI</option>
+              <option value="RAJSHAHI">RAJSHAHI COURT</option>
+              <option value="RANGPUR">RANGPUR</option>
+              <option value="SAIDPUR">SAIDPUR</option>
+              <option value="SANTAHER">SANTAHER</option>
+              <option value="SARARCHAR">SARARCHAR</option>
+              <option value="SARISHA_BARI">SARISHA_BARI</option>
+              <option value="SH M MONSUR ALI">SH M MONSUR ALI</option>
+              <option value="SHAISTAGONJ">SHAISTAGONJ</option>
+              <option value="SHAMSHERNAGAR">SHAMSHERNAGAR</option>
+              <option value="SRIMANGAL">SRIMANGAL</option>
+              <option value="SYLHET">SYLHET</option>
+              <option value="TANGAIL">TANGAIL</option>
+              <option value="THAKURGAON_ROAD">THAKURGAON_ROAD</option>
+              <option value="ULLAPARA">ULLAPARA</option>
+            </select>
+
+              </div>
+              
+              <div class="gap">
+                <label for="Passenger">Passenger</label><br />
+                <select name="adult" id="adult">
+                  <option value="" disabled selected>Adult Passenger</option>
+                  <option value="One">1</option>
+                  <option value="Two">2</option>
+                  <option value="Three">3</option>
+                  <option value="Four">4</option>
+                  <option value="Five">5</option>
+                </select>
+                <select name="child" id="child">
+                  <option value="" disabled selected>Child Passenger</option>
+                  <option value="One">1</option>
+                  <option value="Two">2</option>
+                  <option value="Three">3</option>
+                </select>
+              </div>
+            
+          
+            <div class="gap">
+              <label for="date"
+              ><i class="fas fa-user-alt"></i> Journey date</label
+            ><br />
+            <input type="date" id="date" name="date" />
+            </div>
+
+            <div class="gap">
+              <label for="class"
+              ><i class="fas fa-user-alt"></i> Train Class</label
+            ><br />
+            <select name="class" required="">
+              <option value="AC_S">AC_S   </option>
+              <option value="F_SEAT">F_SEAT   </option>
+              <option value="SHOVAN">SHOVAN   </option>
+              <option value="SNIGDHA">SNIGDHA   </option>
+              <option value="SULOV">SULOV   </option>
+              <option value="S_CHAIR">S_CHAIR   </option>
+              </select>
+            </div>
+            
+            </div>
+
+
+            <div class="right_side">
+
+              <div class="gap">
+                <label for="name"><i class="fas fa-user-alt"></i> Name</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder=""/>
+              </div>
+
+              <div class="gap">
+                <label for="nid_number"
+              ><i class="fas fa-user-alt"></i> NID Numebr</label
+            ><br />
+            <input type="TEXT" size="20" maxlength="99" />
+              </div>
+
+              <div class="gap">
+                <label for="phone_number"
+              ><i class="fas fa-user-alt"></i> Phone Number</label
+            ><br />
+            <input type="NUMBER" size="20" maxlength="99" />
+              </div>
+
+              <div class="gap">
+                <label for="email"><i class="fas fa-user-alt"></i> Email</label
+                  ><br />
+                  <input type="EMAIL" size="20" maxlength="99" />
+              </div>
+              <div class="gap">
+                <label for="ADDRESS"><i class="fas fa-user-alt"></i> Address</label
+                  ><br />
+                  <textarea name="address" id="address" cols="20" rows="2"></textarea
+                  ><br />
+              </div>           
+            </div>
+          </form>
+          <input type="submit" value="Submit" style="text-align: center;margin-left: 221px;padding: 10px;background-color: coral;"/>
+            <input type="reset" value="Reset" style="text-align: center;padding: 10px;background-color: violet;"/>
+        </div>
+      </div>
+    </main>
+      <!--  payment menu end  -->
+        <div class="footer">
+          <div class="footer_one">
+            
+          
+                  <th>
+                    <h6 style="font-size: 19px;font-weight: bold;margin-top: 0;margin-bottom: 0rem;line-height: 0;"
+                    >Payment Method</h6>
+                    <br>
+                    <img src="images/card/master_card.svg" style="width: 50px; height: 50px;">
+                      <img src="images/card/paypal.svg" style="width: 50px; height: 50px;">
+                      <img src="images/card/maestro.svg" style="width: 50px; height: 50px;">
+                      <img src="images/card/western union.svg" style="width: 50px; height: 50px;">
+                      <img src="images/card/bkash.svg" style="width: 50px; height: 50px;">
+                      <img src="images/card/payoneer.png" style="width: 50px; height: 50px;">
+                  </th>      
+        </div>
+        <div class="footer_two">
+          
+          <th>
+            <h6 style="font-size: 19px;font-weight: bold;margin-top: 0;margin-bottom: 0rem;line-height: 0;"
+            >Get In Touch</h6>
+            <br>
+            <img src="images/get_touch/google-play-badge.svg" style="width: 90px; height: 50px;">
+              <img src="images/get_touch/app-stores.svg" style="width: 90px; height: 50px;">
+              <img src="images/get_touch/microsoft.svg" style="width: 90px; height: 50px;">
+             </th>
+        </div>
+        </div>
+
+        <div class="develop">
+          This website is developed by Shamim,Shaoun & Imran
+        </div>
+        </body>
+      </div>
+
+
+</html>

@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.button_corner_style{ 
+    position: relative;
+left: 48%;
+font-size: 17px;
+color: whitesmoke;
+background: radial-gradient( rgb(64, 245, 64), green);
+padding: 0px 4px;
+border: 1px solid white;
+border-radius: 0em 1em;
+margin: -20px 2px;
+text-align: center;
+        } 
+  
+  .button_corner_style li{
+    list-style-type: none;}
+    
+  .button_corner_style li a{
+    color: whitesmoke;
+  }
+
+  .box_style{
+    background-image: url("images.jpg");
+    backdrop-filter: 2px;
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width:100%;
+    
+    padding:10px;
+    overflow: hidden;
+    display:block;
+  } 
+  .header_title{
+    width:45%;
+    height:500px;
+    padding:10px 10px;
+    float:left;
+    text-align: center;
+  } 
+  .purchase_box{
+    background-color:rgb(55, 233, 174);
+    width:50%;
+    height:400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px 50px;
+    border-width: 2px;
+    box-shadow: 2px;
+    padding:10px;
+    float:right;
+    
+  }
+  .purchase_box form{
+    display:flex;
+  }
+
+  .left_side{
+    float: left;
+    padding:2px;
+    margin:2px 0px;
+  }
+
+  .right_side{
+    float: right;
+    padding:2px;
+  }
+  .center{
+    font-size:35px;
+    color: #f7fff8;
+    position: relative;
+    text-align: center;
+    float: center;
+    margin-top: 140px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 5;
+    background-color: rgb(122, 255, 155);
+    
+  }
+  .flex-container {
+    display: flex;
+    float:right;
+    position: absolute;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+  .footer_one{
+    width: 50%;
+    float:left;
+    text-align:center;
+  }
+  .footer_two{
+    width: 50%;
+    float:right;
+    text-align:center;
+  }
+  .develop{
+    background-color: #24ca15;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: whitesmoke;
+  }
+  
+ul {
+    list-style-type: none;
+    float: right;
+    margin-left: 200px;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+color: rgb(19, 16, 16);
+text-align: center;
+padding: 10px 11px;
+text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(46, 62, 133);
+    
+border-radius: 0em 1em;
+text-align: center;
+    
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .gap{
+    padding: 8px 0px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+marquee{
+  padding:5px 0px;
+  overflow: hidden;
+  display: hidden;
+}
